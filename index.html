@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CosmosClock - Aika ja Avaruus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CosmosClock</h1>
+    <p>Tutki aikaa ja avaruutta.</p>
+  </header>
+
+  <section id="time-zone">
+    <h2>Aikavyöhykkeet</h2>
+    <div id="time-zones"></div>
+  </section>
+
+  <section id="universe-expansion">
+    <h2>Universumin Laajeneminen</h2>
+    <canvas id="universeCanvas"></canvas>
+  </section>
+
+  <section id="star-map">
+    <h2>Tähdet ja Planeetat</h2>
+    <div id="star-map-container">
+      <p>Zoomaa ja tutki tähtiä.</p>
+    </div>
+  </section>
+
+  <section id="time-travel">
+    <h2>Aikamatka</h2>
+    <p>Tutki menneisyyttä ja tulevaisuutta.</p>
+    <button onclick="startTimeTravel()">Aloita aikamatka</button>
+  </section>
+
+  <footer>
+    <p>CosmosClock - Aika ja avaruus yhdessä paikassa</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
